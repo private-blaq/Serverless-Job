@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Serverless Job Board</h1>
+    </header>
+    <main>
+        <section id="job-form">
+            <h2>Post a Job</h2>
+            <form id="postJobForm">
+                <input type="text" id="title" placeholder="Job Title" required>
+                <input type="text" id="company" placeholder="Company Name" required>
+                <textarea id="description" placeholder="Job Description" required></textarea>
+                <input type="email" id="email" placeholder="Contact Email" required>
+                <button type="submit">Post Job</button>
+            </form>
+        </section>
+
+        <section id="job-listings">
+            <h2>Available Jobs</h2>
+            <ul id="jobs"></ul>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
