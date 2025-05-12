@@ -29,7 +29,7 @@ This project is built to demonstrate how modern cloud-native applications can be
 | Frontend     | HTML, CSS, JavaScript |
 | Hosting      | Amazon S3 + CloudFront |
 | API          | Amazon API Gateway |
-| Compute      | AWS Lambda (Node.js) |
+| Compute      | AWS Lambda (Python 3.18s) |
 | Database     | Amazon DynamoDB    |
 | DNS/SSL      | Route 53 + ACM     |
 
@@ -38,9 +38,7 @@ This project is built to demonstrate how modern cloud-native applications can be
 
 job-board-serverless/
 ├── index.html # Main UI form
-├── styles.css # Styling for form
+├── app.css # Styling for form
 ├── script.js # Frontend logic to submit job
-├── lambda/
-│ └── index.js # Lambda handler for job submission
-├── assets/ # (optional) Images, logos
+├── aws lambda 
 ├── README.md # Project documentation
